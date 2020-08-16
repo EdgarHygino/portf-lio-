@@ -1,0 +1,85 @@
+/*Midia*/
+@media (max-width: 1024px){
+
+/*header*/
+
+    #header{
+        
+        position: fixed;
+        display: inline-block;
+        height: 50px;
+        top: 0;
+        left: 0;
+        text-align: initial;
+        padding: 10px;
+        background-color: #333;
+        border-width: 0 1px 1px 1px ;
+        border-style: solid;
+        border-color: rgb(71, 71, 71);
+        width: 100%;
+        z-index: 1;
+        
+       }
+    
+        #estiloVida{
+            display: none;}
+        
+            #top{
+                
+                float: left;
+            }
+        
+            #nome{
+                
+                margin-left: 70px;
+                margin-top: 0;
+
+                
+            }
+        
+            .imgperfil{
+
+                width: 50px;
+                height: 50px;       
+                border-radius: 100%;    
+        }
+    
+/*main*/
+    
+        #center{
+
+            position: absolute;
+            left: 0;
+            width: 100%;
+            margin: 60px 0 260px 0;
+            background-color:rgb(24, 24, 24);
+            
+           }
+        
+   /*footer*/     
+        
+            #nav{
+                position: fixed;
+                right: 0;
+                width: 100%;
+                height: 50px;
+                border-width: 0 1px 1px 1px ;
+                border-style: solid;
+                border-color: rgb(71, 71, 71);
+                background-color: #333;
+                bottom: 0;
+                left: 0;
+                padding: 10px;
+                width: 100%;
+                z-index: 2;
+               
+               }
+          
+            .iconcasa{
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                margin: 0;
+                z-index: 1;
+            }
+        }
