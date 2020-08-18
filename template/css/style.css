@@ -58,9 +58,45 @@ body {
     border-width: 0 0 1px 0;
 
 }
+#nav ul li { 
+    display: inline; 
+   
+}
+li {
+
+  
+    padding:10px
+}
+
+a {
+    
+    cursor: pointer;
+    text-decoration: none ;    
+    color: #ffffff;
+   
+       
+}
+
+#nav{
+    font-size: large;
+    color: #fff;
+    position: fixed ;
+    text-align: center;
+    list-style:none;
+    left: 0;
+    width: 20%;
+    top: 380px;
+    border-width: 1px 0 0 0;
+    border-style:solid;
+    border-color:rgb(71, 71, 71);
+}
+.menulink{
+    margin-top: 40px;
+}
      
 /*main*/
 #center{
+    padding-top:20px ;
     position: absolute;
     margin-left:20%;
     margin-right: 5%;
@@ -68,20 +104,23 @@ body {
     border-style:solid;
     border-color:rgb(71, 71, 71);
     
+    
 }
 #main{
-    padding: 10px;
+    padding: 20px;
+    text-align: center;
 }
 
-/*navegador e links*/
+/*navegador e links de redes sociais*/
 
-#nav{
+#icon_nav{
     position: fixed;
     right: 0;
-    height: 2200px;
+    height: 100%;
     width: 5%;
+    text-align: center;    
     background-color: #333;
-
+    
 }
 
 #icon{
@@ -90,23 +129,25 @@ body {
     border-radius: 100%;   
 
 }
-#iconcasa{
-    position: fixed ;
-    text-align: center;
-    left: 0;
-    width: 20%;
-    top: 450px;
+.redesociais{
+    margin-top: 100%;
     
-    
-    
+
 }
+.luz{
+    position: absolute;
+    margin-left: 20%;
+    bottom:0;
+
+   
+}
+
 
 /*footer*/
 
 #footer{
     
-    height: 200px;
-    width: auto;
+    height: 200px;    
     padding: 10px;
     right: 0;
     bottom: 0;
@@ -114,7 +155,8 @@ body {
     border-style: solid;
     border-color: rgb(71, 71, 71);
     background-color:  rgb(24, 24, 24);
-    z-index: 2;
+    z-index: 1;
+    text-align: center;
     
 }
 
